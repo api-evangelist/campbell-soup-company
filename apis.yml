@@ -9,7 +9,7 @@ description: >-
   digital properties, an investor relations portal, a careers platform, and
   supplier resources, but does not publish general-purpose public APIs.
 type: Index
-x-type: company
+kind: company
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
@@ -118,7 +118,7 @@ common:
     url: https://careers.thecampbellscompany.com/
   - type: Suppliers
     url: https://www.thecampbellscompany.com/suppliers/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.thecampbellscompany.com/privacy-policy/
   - type: Contact
     url: https://www.thecampbellscompany.com/contact-us/
