@@ -108,6 +108,8 @@ apis:
       - Recruitment and talent sourcing
       - Workforce analytics
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-campbells-company
   - type: Website
     url: https://www.thecampbellscompany.com/
   - type: Investor Relations
