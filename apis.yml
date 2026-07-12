@@ -109,6 +109,8 @@ apis:
       - Recruitment and talent sourcing
       - Workforce analytics
 common:
+  - type: DomainSecurity
+    url: security/campbell-soup-company-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-campbells-company
   - type: Website
