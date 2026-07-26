@@ -10,9 +10,21 @@ description: >-
   supplier resources, but does not publish general-purpose public APIs.
 type: Index
 kind: company
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Paid
+  confidence: medium
+  source:
+    - finops
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/campbell-soup-company.png
 tags:
   - Beverages
   - Consumer Packaged Goods
@@ -25,37 +37,9 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/campbell-soup-company/refs/heads/main/apis.yml
 created: '2026-03-23'
-modified: '2026-04-23'
+modified: '2026-07-25'
 specificationVersion: '0.19'
 apis:
-  - aid: campbell-soup-company:campbells-company
-    name: The Campbell's Company Corporate
-    description: >-
-      The corporate website of The Campbell's Company, covering company
-      history, leadership, brand portfolio, responsibility programs, and
-      community impact. Serves as the primary external information portal for
-      the enterprise.
-    humanURL: https://www.thecampbellscompany.com/
-    tags:
-      - Corporate
-      - CPG
-    properties:
-      - type: Website
-        url: https://www.thecampbellscompany.com/
-      - type: About
-        url: https://www.thecampbellscompany.com/our-company/
-      - type: Brands
-        url: https://www.thecampbellscompany.com/our-food/
-      - type: Newsroom
-        url: https://www.thecampbellscompany.com/newsroom/
-    x-features:
-      - Brand and product portfolio discovery
-      - Newsroom and press releases
-      - Corporate responsibility reporting
-    x-use-cases:
-      - Brand research and due diligence
-      - Corporate communications monitoring
-      - Supply chain and responsibility analysis
   - aid: campbell-soup-company:investor-relations
     name: The Campbell's Company Investor Relations
     description: >-
@@ -85,29 +69,6 @@ apis:
       - Financial analysis and research
       - ESG and responsibility reporting reviews
       - Compliance and regulatory filings access
-  - aid: campbell-soup-company:careers
-    name: The Campbell's Company Careers
-    description: >-
-      Careers and employment portal for The Campbell's Company, featuring job
-      listings across corporate, manufacturing, sales, and supply chain roles,
-      along with employee value proposition and benefits information.
-    humanURL: https://careers.thecampbellscompany.com/
-    tags:
-      - Careers
-      - Jobs
-      - Recruitment
-    properties:
-      - type: Portal
-        url: https://careers.thecampbellscompany.com/
-      - type: Job Search
-        url: https://careers.thecampbellscompany.com/global/en/search-results
-    x-features:
-      - Job search and filtering
-      - Career application workflow
-      - Benefits and culture information
-    x-use-cases:
-      - Recruitment and talent sourcing
-      - Workforce analytics
 common:
   - type: DomainSecurity
     url: security/campbell-soup-company-domain-security.yml

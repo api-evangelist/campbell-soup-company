@@ -22,20 +22,12 @@ The Campbell's Company (formerly Campbell Soup Company) is an American manufactu
 
 ## APIs
 
-### The Campbell's Company Corporate
-Corporate website covering company history, leadership, brand portfolio, and responsibility programs.
-
-**Human URL:** [https://www.thecampbellscompany.com/](https://www.thecampbellscompany.com/)
 
 ### The Campbell's Company Investor Relations
 SEC filings, earnings, stock information, and ESG disclosures for NYSE CPB.
 
 **Human URL:** [https://investor.thecampbellscompany.com/](https://investor.thecampbellscompany.com/)
 
-### The Campbell's Company Careers
-Employment portal with job listings across corporate, manufacturing, and supply chain roles.
-
-**Human URL:** [https://careers.thecampbellscompany.com/](https://careers.thecampbellscompany.com/)
 
 ## Common Properties
 
